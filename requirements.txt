@@ -1,6 +1,8 @@
-python==3.11.5
-langchain_community==0.4.1
-langchain_core==1.0.4
-redis==7.0.1
+langchain==0.3.*
+langchain-community==0.3.*
+langchain-core==0.3.*
+faiss-cpu==1.7.4
+rank-bm25==0.2.2
 streamlit==1.39.0
-
+redis==7.0.1
+python-dotenv==1.0.1
