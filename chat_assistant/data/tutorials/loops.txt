@@ -1,0 +1,40 @@
+# Python Loops
+
+Loops are used in Python to repeat a block of code multiple times.
+
+## For Loop
+The for loop is used to iterate over a sequence such as a list, tuple, string, or range.
+
+Example:
+for i in range(5):
+    print(i)
+
+This prints numbers 0 through 4.
+
+You can also iterate through lists:
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+## While Loop
+A while loop continues to run as long as a condition is True.
+
+Example:
+count = 0
+while count < 3:
+    print("Count is:", count)
+    count += 1
+
+Be careful of infinite loops! Always make sure the condition becomes False eventually.
+
+## Break and Continue
+- **break** stops the loop completely.
+- **continue** skips the current iteration and moves to the next.
+
+Example:
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+This prints 0, 1, 2.

@@ -1,0 +1,31 @@
+# Python Functions
+
+Functions help organize code into reusable blocks.
+
+## Defining a Function
+Use the def keyword:
+
+def greet(name):
+    print("Hello,", name)
+
+greet("Alice")
+
+## Return Statement
+Functions can return values using `return`.
+
+def add(a, b):
+    return a + b
+
+result = add(3, 5)
+print(result)
+
+## Default Parameters
+You can provide default values for parameters:
+
+def greet(name="Guest"):
+    print("Hello,", name)
+
+greet()  # prints Hello, Guest
+
+## Variable Scope
+Variables created inside a function are local to that function.
